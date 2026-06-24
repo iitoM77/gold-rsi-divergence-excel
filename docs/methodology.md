@@ -31,15 +31,13 @@ This document explains how the performance metrics, session classifications, and
 
 ---
 
-## Session Definitions
+## Session Definitions (GMT +2)
 
 Sessions are classified based on trade execution time:
 
-- **Asian Session** → 00:00 – 07:59 (GMT)
-- **London Session** → 08:00 – 15:59 (GMT)
-- **New York Session** → 16:00 – 23:59 (GMT)
-
-*(Adjust hours if using local time instead of GMT.)*
+- **Asian Session** → 01:00 – 09:00 (XM time) : (00:00 – 08:00 SAST in winter, 01:00 – 09:00 SAST in summer)
+- **London Session** → 09:00 – 17:00 (XM time) : (08:00 – 16:00 SAST in winter, 09:00 – 17:00 SAST in summer)
+- **New York Session** → 15:00 – 23:00 (XM time) : (14:00 – 22:00 SAST in winter, 15:00 – 23:00 SAST in summer)
 
 ---
 
@@ -70,6 +68,6 @@ Dashboards combine:
 
 ---
 
-## 🔄 Notes
+##  Notes
 - All calculations are performed in Excel using formulas, PivotTables, and charts.
 - Definitions may be updated as the project evolves.
